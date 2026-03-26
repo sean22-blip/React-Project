@@ -52,6 +52,16 @@ function Top() {
             </div>
           </div>
         </div>
+        <div className='banner_section'>
+          <div className='banner_container'>
+            <div className='banner_wrapper'>
+              <div className='banner'>
+                <div className='banner_img'></div>
+                <div className='banner_decs'></div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* <div className='p-news p-section is-scroll-active' data-scroll-effect>
           <div className='p-news__inner'>
             <div className='p-news__header'>

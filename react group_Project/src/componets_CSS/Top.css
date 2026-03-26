@@ -8,10 +8,10 @@
 }
 .container, .slide-wrapper{
     margin: 0 auto;
-    max-width: calc();
 }
 .container{
     touch-action: pan-y;
+    
 }
 .slider{
     display: flex;
@@ -19,8 +19,7 @@
 }
 .slide{
     background-color: #02a6d6;
-    /* background-color: black; */
-    padding-top: 80px;
+    /* padding-top: 80px; */
     display: flex;
     align-items: center;
     position: relative;
