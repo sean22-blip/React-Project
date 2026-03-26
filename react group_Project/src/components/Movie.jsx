@@ -8,15 +8,6 @@ function Movie() {
   return (
     <div id='whole-container'>
 
-      {/* fixed side icons */}
-      <div id='side-icons'>
-        <FaYoutube />
-        <FaTiktok />
-        <FaInstagram />
-        <FaXTwitter />
-        <FaFacebook />
-      </div>
-
       <div className='main-container'>
         <h1 id='movieLogo'>Movie</h1>
         <div id='tab-wrapper'>
