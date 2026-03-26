@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: orange;
+    background: #1e4a87;
     padding: 2em 2em 3em 2em;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 #watchBtn:hover {
-    background-color: orange;
+    background-color: blue;
     color: white;
 }
 #btm {
