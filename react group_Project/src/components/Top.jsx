@@ -4,8 +4,9 @@ import './../componets_CSS/Top.css'
 import logo from '../assets/logo.svg'
 import pink from '../assets/pink.jpg'
 import oggy from '../assets/oggy1.png'
-import bug from '../assets/bug.png'
-
+// import newVd from '../assets/new-vd.svg'
+// import newText from '../assets/new.png'
+// import skull from '../assets/skull.png'
 function Top() {
   return (
     <>
@@ -52,6 +53,27 @@ function Top() {
             </div>
           </div>
         </div>
+        {/* <section className='p-vd p-section is-scroll-active'>
+          <div className='p-vd__inner'>
+            <div className='p-vd__title c-title'>
+              <h2 className='c-title__text'>
+                
+                  <img src={newVd} alt="" />
+                
+              </h2>
+            </div>
+          </div>
+        </section> */}
+        {/* <div className='p-vd__contents'>
+          <div className='p-vd__contents-main'>
+            <div className='p-vd__contents-main-icon-text'>
+              <img src={newText} alt="" />
+            </div>
+            <div className='p-vd__contents-main-icon-character'>
+              <img src={skull} alt="" />
+            </div>
+          </div>
+        </div> */}
         {/* <div className='p-news p-section is-scroll-active' data-scroll-effect>
           <div className='p-news__inner'>
             <div className='p-news__header'>
@@ -77,7 +99,6 @@ function Top() {
           </div>
         </div> */}
       </main>
-
     </>
   );
 }
