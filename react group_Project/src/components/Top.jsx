@@ -2,42 +2,20 @@
 import Header from './Header';
 import Episode from './Episode'
 import './../componets_CSS/Top.css'
-<<<<<<< HEAD
-<<<<<<< HEAD
 import logo from '../assets/logo.svg'
 import pink from '../assets/pink.jpg'
 import oggy from '../assets/oggy1.png'
 import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import bob from '../assets/bob.avif'
-import spookiz from '../assets/spook.png'
+import tom from '../assets/tom.png'
+import simp from '../assets/simp.png'
+
 // import newVd from '../assets/new-vd.svg'
-=======
-=======
->>>>>>> 4433d95 (Added Introduction)
-
-import pink from '../assets/pink.jpg'
-
-
-<<<<<<< HEAD
->>>>>>> b0c5912 (Intro)
-=======
-=======
-import logo from '../assets/logo.svg'
-import pink from '../assets/pink.jpg'
-import oggy from '../assets/oggy1.png'
-import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
-import bob from '../assets/bob.avif'
-// import newVd from '../assets/new-vd.svg'
->>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
->>>>>>> 4433d95 (Added Introduction)
 function Top() {
   return (
     <>
       <main>
-<<<<<<< HEAD
-<<<<<<< HEAD
         {/* <div className='image'>
           <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
         </div> */}
@@ -49,46 +27,11 @@ function Top() {
                   <img src={pink} alt="" className='pink' />
                 </div>
                 <div className='sub_heading'>
-                  <div className='sub'>WELCOME TO KIDDIZ</div>
-                  <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
+                  <div className='sub font-medium'>WELCOME TO KIDDIZ</div>
+                  <div className='heading font-sans'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
                 </div>
               </div>
             </div>
-=======
-=======
->>>>>>> 4433d95 (Added Introduction)
-          <div className='image'>
-            <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
-          </div>
-        <div className='container'>
-          <div>
-            <img src={pink} alt="" className='pink'/>
-          </div>
-          <div className='sub_heading'>
-            <div className='sub'>WELCOME TO KIDDIZ</div>
-            <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
-<<<<<<< HEAD
->>>>>>> b0c5912 (Intro)
-=======
-=======
-        {/* <div className='image'>
-          <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
-        </div> */}
-        <div className='container'>
-          <div className='slide_wrapper'>
-            <div className='slider'>
-              <div className='slide'>
-                <div>
-                  <img src={pink} alt="" className='pink' />
-                </div>
-                <div className='sub_heading'>
-                  <div className='sub'>WELCOME TO KIDDIZ</div>
-                  <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
-                </div>
-              </div>
-            </div>
->>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
->>>>>>> 4433d95 (Added Introduction)
           </div>
         </div>
         <div className='mid'>
@@ -115,7 +58,7 @@ function Top() {
             </div>
           </div>
         </div>
-        <section className='p-vd p-section is-scroll-active'>
+        <div className='p-vd p-section is-scroll-active'>
           <div className='p-vd__inner'>
             <div className='p-vd__title c-title'>
               <h2 id='movieLogo'>
@@ -130,19 +73,35 @@ function Top() {
                 <a href=''>Previous Episodes</a>
             </div>
           </div>
-          <div className='vd-deco'>
+          <div className='vd-deco '>
             <div className='vd-deco-bg'>
             <div className='vd-deco-char'>
-              <img src={spookiz}alt="" />
+              <img src={tom}alt="" />
+              {/* <img src={jerry} alt="" /> */}
             </div>
             </div>
           </div>
-        </section>
-        <div className='intro'>
-          <div className='intro-inner'>
-          <h2 id='movieLogo'>Introduction</h2>
-
-          <div></div>
+        </div>
+        <div className='intro '>
+          <div className='intro-inner '>
+          <h2 id='movieLogo'>Introduction</h2>         
+          <div className=' justify-center text-center text-lg w-[90vh]   m-[50px] m-auto  rounded-2xl  border-2 shadow-2xl  p-[15px] text-white'>
+            <div className='mt-4 '>
+              <h2>In a world full of laughter 
+                and fun… the craziest cartoons come together!</h2>
+                <h2 className='mt-10'>[ FUN + KIDS = Kiddiz ]</h2>
+                <div className='mt-10'>
+                <h2 className='mb-2'>Tom and Jerry – nonstop chase and clever tricks</h2>
+                <h2 className='mb-2'>Oggy and the Cockroaches – silly chaos and endless mischief</h2>
+                <h2 className='mb-2'>The Pink Panther Show – smooth, funny, and full of surprises</h2>
+                <h2 className='mb-2'>SpongeBob SquarePants – bubbly fun from the deep blue sea</h2>
+                <h2>The Simpsons – wild family laughs and crazy moments</h2>
+                </div>
+            </div>
+            <h2 className='mt-[40px]'>Different styles. Different laughs. One amazing world.</h2>
+            <img src={simp} alt="" className='   object-cover  p-3 justify-center' />
+            
+          </div>
           </div>
         </div>
         <div id='btm'>
@@ -161,69 +120,8 @@ function Top() {
           <h5>@Sony Music Labels Inc.</h5>
         </div>
 
-        {/* <section className='p-vd p-section is-scroll-active'>
-          <div className='p-vd__inner'>
-            <div className='p-vd__title c-title'>
-              <h2 className='c-title__text'>
-                
-                  <img src={newVd} alt="" />
-                
-              </h2>
-            </div>
-          </div>
-        </section> */}
-        {/* <div className='p-vd__contents'>
-          <div className='p-vd__contents-main'>
-            <div className='p-vd__contents-main-icon-text'>
-              <img src={newText} alt="" />
-            </div>
-            <div className='p-vd__contents-main-icon-character'>
-              <img src={skull} alt="" />
-            </div>
-          </div>
-        </div> */}
-        {/* <div className='p-news p-section is-scroll-active' data-scroll-effect>
-          <div className='p-news__inner'>
-            <div className='p-news__header'>
-
-              <div className='p-news__header-title'>
-                <div className='p-news__header-title-item'></div>
-                <div className='p-news__header-nav'>
-                  <div className='p-news__header-nav-item --global ' >
-
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <div className='p-news__contents'>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-          </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        </div> */}
+        
       </main >
-=======
-=======
->>>>>>> 4433d95 (Added Introduction)
-
-        </div>
-      </main>
-      
-<<<<<<< HEAD
->>>>>>> b0c5912 (Intro)
-=======
-=======
-        </div> */}
-      </main >
->>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
->>>>>>> 4433d95 (Added Introduction)
     </>
   );
 }
