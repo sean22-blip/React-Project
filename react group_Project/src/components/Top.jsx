@@ -28,7 +28,7 @@ function Top() {
                 </div>
                 <div className='sub_heading'>
                   <div className='sub font-medium'>WELCOME TO KIDDIZ</div>
-                  <div className='heading font-sans'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
+                  <div className='heading font-medium'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ function Top() {
             </div>
           </div>
         </div>
-        <div className='p-vd p-section is-scroll-active'>
+        <section className='p-vd p-section is-scroll-active'>
           <div className='p-vd__inner'>
             <div className='p-vd__title c-title'>
               <h2 id='movieLogo'>
@@ -73,15 +73,15 @@ function Top() {
                 <a href=''>Previous Episodes</a>
             </div>
           </div>
-          <div className='vd-deco '>
-            <div className='vd-deco-bg'>
+          <div className='vd-deco'>
+            <div className='vd-deco-bg '>
             <div className='vd-deco-char'>
               <img src={tom}alt="" />
               {/* <img src={jerry} alt="" /> */}
             </div>
             </div>
           </div>
-        </div>
+        </section>
         <div className='intro '>
           <div className='intro-inner '>
           <h2 id='movieLogo'>Introduction</h2>         
