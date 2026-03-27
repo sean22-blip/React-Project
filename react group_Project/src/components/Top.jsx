@@ -3,6 +3,7 @@ import Header from './Header';
 import Episode from './Episode'
 import './../componets_CSS/Top.css'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import logo from '../assets/logo.svg'
 import pink from '../assets/pink.jpg'
 import oggy from '../assets/oggy1.png'
@@ -11,15 +12,30 @@ import { FaXTwitter } from 'react-icons/fa6'
 import bob from '../assets/bob.avif'
 // import newVd from '../assets/new-vd.svg'
 =======
+=======
+>>>>>>> 4433d95 (Added Introduction)
 
 import pink from '../assets/pink.jpg'
 
 
+<<<<<<< HEAD
 >>>>>>> b0c5912 (Intro)
+=======
+=======
+import logo from '../assets/logo.svg'
+import pink from '../assets/pink.jpg'
+import oggy from '../assets/oggy1.png'
+import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
+import bob from '../assets/bob.avif'
+// import newVd from '../assets/new-vd.svg'
+>>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
+>>>>>>> 4433d95 (Added Introduction)
 function Top() {
   return (
     <>
       <main>
+<<<<<<< HEAD
 <<<<<<< HEAD
         {/* <div className='image'>
           <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
@@ -38,6 +54,8 @@ function Top() {
               </div>
             </div>
 =======
+=======
+>>>>>>> 4433d95 (Added Introduction)
           <div className='image'>
             <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
           </div>
@@ -48,7 +66,28 @@ function Top() {
           <div className='sub_heading'>
             <div className='sub'>WELCOME TO KIDDIZ</div>
             <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
+<<<<<<< HEAD
 >>>>>>> b0c5912 (Intro)
+=======
+=======
+        {/* <div className='image'>
+          <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
+        </div> */}
+        <div className='container'>
+          <div className='slide_wrapper'>
+            <div className='slider'>
+              <div className='slide'>
+                <div>
+                  <img src={pink} alt="" className='pink' />
+                </div>
+                <div className='sub_heading'>
+                  <div className='sub'>WELCOME TO KIDDIZ</div>
+                  <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
+                </div>
+              </div>
+            </div>
+>>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
+>>>>>>> 4433d95 (Added Introduction)
           </div>
         </div>
         <div className='mid'>
@@ -152,14 +191,24 @@ function Top() {
             </div>
           </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
         </div> */}
       </main >
 =======
+=======
+>>>>>>> 4433d95 (Added Introduction)
 
         </div>
       </main>
       
+<<<<<<< HEAD
 >>>>>>> b0c5912 (Intro)
+=======
+=======
+        </div> */}
+      </main >
+>>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
+>>>>>>> 4433d95 (Added Introduction)
     </>
   );
 }
