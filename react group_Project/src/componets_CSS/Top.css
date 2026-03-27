@@ -106,7 +106,7 @@ main {
     font-style: 1.87rem;
     font-weight: 700;
     letter-spacing: .031rem;
-    line-height: 1.33;
+    line-height: 1.13;
     margin-bottom: 1.2rem;
     margin-top: 0;
     text-transform: inherit;
@@ -186,11 +186,11 @@ main {
 }
 
 p {
-    font-size: 1.125rem;
     font-weight: 400;
+    font-size: 1.125rem;
     letter-spacing: .019rem;
     line-height: 1.75rem;
-    font-family: proxima-nova, sans-serif;
+    font-family: sans-serif;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;

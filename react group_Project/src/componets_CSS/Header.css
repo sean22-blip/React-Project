@@ -56,13 +56,14 @@ margin-left: 400px;
    /* background: linear-gradient(90deg, rgba(222, 80, 4, 1) 0%, rgba(237, 221, 83, 1) 100%); */
    display: flex;
    align-items: center;
-   justify-content: center;
+   /* justify-content: center; */
    /* justify-content: space-between; */
    justify-content: flex-start;
+   gap: 30px;
    /* justify-content: space-around; */
    /* justify-content: space-evenly; */
    padding: 0 20px;
-   position: sticky;
+   /* position: sticky; */
    top: 0;
    z-index: 8;
    position: fixed;
