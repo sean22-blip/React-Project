@@ -1,53 +1,97 @@
-import React from 'react'
+import React, { useState } from 'react'
+import CardNews from './CardNews'
 
 function News() {
+  const [showMore, setShowMore] = useState(false)
+
   return (
     <div className="w-full">
 
-      {/* TOP HEADER */}
-      <div className="bg-[#02a6d6] py-20 text-center text-white relative">
-        <h1 className="text-6xl font-bold  drop-shadow-lg pt-4">
-          News
-        </h1>
+      {/* HEADER */}
+      <div className="bg-[#1e4a87] py-20 text-center text-[#ffc83d]">
+        <h1 className="text-8xl font-bold drop-shadow-lg">News</h1>
 
-        {/* Buttons */}
+        {/* BUTTONS */}
         <div className="flex justify-center gap-6 mt-10">
-          <button className="bg-black px-16 py-4 rounded-full text-white text-xl border border-solid-2 ">
+          <button className="bg-black px-16 py-4 rounded-full text-white text-xl">
             Search
           </button>
 
-          <button className="bg-black px-16 py-4 rounded-full text-white text-xl border border-solid-2">
-            See More
+          {/* CLICK BUTTON */}
+          <button
+            className="bg-black px-16 py-4 rounded-full text-white text-xl"
+            onClick={() => setShowMore(!showMore)}
+          >
+            {showMore ? 'Show Less' : 'See More'}
           </button>
         </div>
       </div>
 
       {/* NEWS SECTION */}
-      <div className="bg-[#02a6d6] py-16 flex flex-col items-center gap-8">
+      <div className="bg-[#1e4a87] py-16 flex flex-col items-center gap-8">
 
-        {/* CARD 1 */}
-        <div className="bg-gray-200 w-[80%] rounded-2xl p-8 shadow-lg">
-          <span className="bg-orange-500 text-white px-4 py-1 rounded-full text-sm">
-            26.03.20
-          </span>
+        {/* ALWAYS SHOW */}
+        <CardNews
+          date="26.03.20"
+          title='Episode 8 of "Spookiz - Monsters Awakening-" has been released!'
+          description="News Episode"
+        />
 
-          <p className="mt-4 text-blue-900 text-xl font-semibold">
-            Episode 8 of "Spookiz - Monsters Awakening-" has been released!
-          </p>
-        </div>
+        <CardNews
+          date="26.03.16"
+          title="[JAPAN] Spookiz to appear at CENTRAL festival!"
+          description="News Episode"
+        />
 
-        {/* CARD 2 */}
-        <div className="bg-gray-200 w-[80%] rounded-2xl p-8 shadow-lg">
-          <span className="bg-yellow-400 text-white px-4 py-1 rounded-full text-sm">
-            26.03.16
-          </span>
+        <CardNews
+          date="26.03.16"
+          title="[JAPAN] Spookiz to appear at CENTRAL festival!"
+          description="News Episode"
+        />
 
-          <p className="mt-4 text-blue-900 text-xl font-semibold">
-            [JAPAN] Spookiz to appear at urban music festival 'CENTRAL'!
-          </p>
-        </div>
+
+        <CardNews
+          date="26.03.16"
+          title="[JAPAN] Spookiz to appear at CENTRAL festival!"
+          description="News Episode"
+        />
+
+
+        {/* SHOW MORE */}
+        {showMore && (
+          <>
+            <CardNews
+              date="26.03.15"
+              title="New merchandise available!"
+              description="News Episode"
+            />
+
+            <CardNews
+              date="26.03.10"
+              title="New animation teaser released!"
+              description="News Episode"
+            />
+          </>
+        )}
 
       </div>
+
+      {/* <div id='btm'>
+          <h4>Website Terms of Use</h4>
+          <div id='footer'>
+            <FaYoutube />
+            <FaTiktok />
+            <FaInstagram />
+            <FaXTwitter />
+            <FaFacebook />
+            <span id='divider'>|</span>
+            <FaInstagram />
+            <FaXTwitter />
+            <span>for Cambodian</span>
+          </div>
+          <h5>@Sony Music Labels Inc.</h5>
+        </div> */}
+
 
     </div>
   )
