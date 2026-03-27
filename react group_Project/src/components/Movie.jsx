@@ -15,6 +15,7 @@ function Movie() {
         <h1 id='movieLogo'>Movie</h1>
         <div id='tab-wrapper'>
           <div id='inner-movie'>Movie</div>
+          <div id='inner-movie'>  Another show </div>
         </div>
         <div id='box1'>
           <div id='left'>
