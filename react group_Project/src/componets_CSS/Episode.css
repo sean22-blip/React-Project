@@ -2,18 +2,15 @@
 .episode-page {
   padding: 20px;
   text-align: center;
-  font-family: "Comic Sans Ms", "Poppins", sans-serif;
-  background-color: #2f4f86;
   min-height: 100vh;
   background: linear-gradient(135deg, #2f4f86, #7597dc);
 }
 
 /* Page Title */
 .episode-page h1 {
-  font-size: 80px;
+  font-size: 30px;
   margin-bottom: 20px;
-  padding-top: 100px;
-  color: #ffffff;
+  color: #ffc83d;
   letter-spacing: 3px;
   text-shadow: 3px 3px 0px #000000;
 }
@@ -109,6 +106,7 @@
   width: 100%;
   height: 260px;
   object-fit: cover;
+
 }
 
 .episode-card p {

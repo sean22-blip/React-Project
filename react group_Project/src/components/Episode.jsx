@@ -18,7 +18,7 @@ import { FaXTwitter } from 'react-icons/fa6'
   return(
     <>
       <div className="episode-page">
-      <h1>EPISODE</h1>
+      <h1 id ='movieLogo'>EPISODE</h1>
       <div className="category-bar">
         {movieName.map((name) => (
           <button
