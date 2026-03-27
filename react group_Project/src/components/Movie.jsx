@@ -21,9 +21,9 @@ function Movie() {
             <img src={oggyMovie} alt="oggy" id='oggy' />
           </div>
           <div id='right'>
-            <h2>"A cat and a mouse – two enemies that were never meant to live under the same roof… Yet fate keeps bringing them back together!"</h2>
-            <p>In a warm and cozy household, life seems perfectly normal. It's a typical home on a typical street. But the moment Tom settles in for a peaceful day, Jerry comes scurrying out of his little mouse hole with a grin on his face and mischief on his mind! Tom must catch Jerry — yet no matter how many traps, chases, or schemes Tom cooks up, that tiny mouse always finds a way to outsmart him. One pan to the face, one mistimed leap, and the whole house turns into a battlefield…</p>
-            <p>Can a cat ever truly catch a mouse? A timeless story about the never-ending chase between a cunning cat and the clever little mouse who always stays one step ahead.</p>
+            <h2>"A cat and three cockroaches – a household that was never meant to be shared… Yet no matter what, they always find their way back!"</h2>
+            <p>In a neat and tidy home, life should be simple and peaceful. It's a cozy house on a quiet street — exactly how <strong>Oggy</strong> likes it. But the moment he settles in for a relaxing day, <strong>Joey, Dee Dee, and Marky</strong> come crawling out of the walls with chaos on their minds and Oggy's fridge in their sights! Oggy must get rid of the cockroaches — yet no matter how many traps, brooms, or desperate schemes he comes up with, those three little pests always find a way to turn his life upside down. One smack with a flyswatter, one mistimed stumble, and the whole house becomes a disaster zone…</p>
+            <p>Can a cat <em>ever</em> truly get rid of three cockroaches? A timeless story about the never-ending battle between a loveable blue cat and the mischievous little bugs who always stay one step ahead.</p>
             <button id='watchBtn' onClick={handleClick}>Watch it Here →</button>
           </div>
         </div>

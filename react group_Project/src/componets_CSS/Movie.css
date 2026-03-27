@@ -77,6 +77,8 @@ body {
 }
 
 #right h2 {
+    font-size: large;
+    font-weight: bold;
     margin-top: 0;
     text-align: left;
 }
@@ -128,7 +130,7 @@ h4 {
 
 h4:hover {
     cursor: pointer;
-    color: orange;
+    color: rgb(51, 136, 255);
 }
 
 #footer {
