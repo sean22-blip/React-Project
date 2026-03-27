@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (min-width: 64rem) {
     .slide-wrapper {
         height: 450px;
@@ -267,6 +268,38 @@ p {
 }
 section{
     display: block;
+=======
+.container{
+    background-color: #0693e3;
+    padding-top: 80px;
+    display: flex;
+}
+.sub_heading{
+    color: black;
+    padding: 1.25rem;
+    text-align: left;
+    width: 100%;
+}
+@media (min-width: 48rem){
+    .sub{
+        margin-bottom: .95rem;
+    }
+}
+.sub{
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .031rem;
+    line-height: 1.5;
+    margin-bottom:.7rem;
+    margin-top: .625rem;
+}
+img{
+    position:relative;
+    width: 100%;
+}
+.pink{
+    width: 50%;
+>>>>>>> b0c5912 (Intro)
 }
 
 .p-vd__title {

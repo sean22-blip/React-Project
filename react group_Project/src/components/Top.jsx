@@ -2,6 +2,7 @@
 import Header from './Header';
 import Episode from './Episode'
 import './../componets_CSS/Top.css'
+<<<<<<< HEAD
 import logo from '../assets/logo.svg'
 import pink from '../assets/pink.jpg'
 import oggy from '../assets/oggy1.png'
@@ -9,10 +10,17 @@ import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import bob from '../assets/bob.avif'
 // import newVd from '../assets/new-vd.svg'
+=======
+
+import pink from '../assets/pink.jpg'
+
+
+>>>>>>> b0c5912 (Intro)
 function Top() {
   return (
     <>
       <main>
+<<<<<<< HEAD
         {/* <div className='image'>
           <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
         </div> */}
@@ -29,6 +37,18 @@ function Top() {
                 </div>
               </div>
             </div>
+=======
+          <div className='image'>
+            <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
+          </div>
+        <div className='container'>
+          <div>
+            <img src={pink} alt="" className='pink'/>
+          </div>
+          <div className='sub_heading'>
+            <div className='sub'>WELCOME TO KIDDIZ</div>
+            <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
+>>>>>>> b0c5912 (Intro)
           </div>
         </div>
         <div className='mid'>
@@ -131,8 +151,15 @@ function Top() {
               </ul>
             </div>
           </div>
+<<<<<<< HEAD
         </div> */}
       </main >
+=======
+
+        </div>
+      </main>
+      
+>>>>>>> b0c5912 (Intro)
     </>
   );
 }
