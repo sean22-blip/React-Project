@@ -1,6 +1,6 @@
 body {
     background-size: 50px 50px;
-    background-color: #ffc83d;
+    background-color: #1e4a87;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
@@ -34,6 +34,7 @@ body {
     display: flex;
     justify-content: flex-start;
 }
+
 #inner-movie {
     font-size: 1em;
     font-weight: bold;
@@ -61,7 +62,7 @@ body {
     width: 100%;
 }
 
-#ben10 {
+#oggy {
     width: 250px;
     height: 350px;
     object-fit: cover;
@@ -72,6 +73,17 @@ body {
     font-size: small;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+}
+
+#right h2 {
+    margin-top: 0;
+    text-align: left;
+}
+
+#right p {
+    text-align: left;
+    margin-top: 0.5em;
 }
 
 #watchBtn {
@@ -94,6 +106,7 @@ body {
     background-color: blue;
     color: white;
 }
+
 #btm {
     margin-top: auto;
     background-color: #1a1a1a;
@@ -151,7 +164,7 @@ h4:hover {
         grid-template-columns: 200px 1fr;
     }
 
-    #ben10 {
+    #oggy {
         width: 200px;
         height: 280px;
     }
@@ -161,6 +174,7 @@ h4:hover {
     }
 }
 
+/* MOBILE */
 @media (max-width: 600px) {
     #movieLogo {
         font-size: 3em;
@@ -173,9 +187,10 @@ h4:hover {
     #box1 {
         width: 90vw;
         padding: 1em;
+        grid-template-columns: 1fr;
     }
 
-    #ben10 {
+    #oggy {
         width: 100%;
         height: 250px;
     }

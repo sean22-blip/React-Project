@@ -1,10 +1,13 @@
 import React from 'react'
 import "../componets_CSS/Movie.css"
-import ben10 from "../assets/ben10.png"
+import oggyMovie from "../assets/oggyMovie.png"
 import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 
 function Movie() {
+  function handleClick() {
+    window.open("https://www.youtube.com/watch?v=eTSVEnCHDeY&list=PL-d4D7FQaDKMKmZD-nmHpdnbO7YZRipC6")
+  }
   return (
     <div id='whole-container'>
 
@@ -15,13 +18,13 @@ function Movie() {
         </div>
         <div id='box1'>
           <div id='left'>
-            <img src={ben10} alt="ben10" id='ben10' />
+            <img src={oggyMovie} alt="oggy" id='oggy' />
           </div>
           <div id='right'>
-            <h2>"Humans & Monsters – two beings that are never meant to meet… Yet a strong bond forms between the two!"</h2>
-            <p>At a sunny playground, the laughter of kids fill the air. It's a typical elementary school in an ordinary town. But when night falls and there is no one around, these little monsters come out of their hiding, to spend their typical school lives! These monsters must never be discovered by humans. Yet one day, Cula the Dracula incidentally discovers a phone, Leading to an encounter with the curious human girl Hana…</p>
-            <p>Can a human girl and monsters become friends? A touching story about friendship between humans and monsters that was never meant to be.</p>
-            <button id='watchBtn'>Watch it Here →</button>
+            <h2>"A cat and a mouse – two enemies that were never meant to live under the same roof… Yet fate keeps bringing them back together!"</h2>
+            <p>In a warm and cozy household, life seems perfectly normal. It's a typical home on a typical street. But the moment Tom settles in for a peaceful day, Jerry comes scurrying out of his little mouse hole with a grin on his face and mischief on his mind! Tom must catch Jerry — yet no matter how many traps, chases, or schemes Tom cooks up, that tiny mouse always finds a way to outsmart him. One pan to the face, one mistimed leap, and the whole house turns into a battlefield…</p>
+            <p>Can a cat ever truly catch a mouse? A timeless story about the never-ending chase between a cunning cat and the clever little mouse who always stays one step ahead.</p>
+            <button id='watchBtn' onClick={handleClick}>Watch it Here →</button>
           </div>
         </div>
       </div>
