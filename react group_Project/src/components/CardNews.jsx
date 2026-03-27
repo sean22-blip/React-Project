@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function CardNews({ date, title, description }) {
+function CardNews({ date, title, description, onWatch }) {
   return (
     <div className="group bg-gray-200 w-[80%] rounded-2xl p-8 shadow-lg 
     transition-all duration-300 hover:scale-105 cursor-pointer">
@@ -13,13 +13,19 @@ function CardNews({ date, title, description }) {
         {title}
       </p>
 
-      {/* SHOW ON HOVER */}
       <p className="mt-4 text-gray-700 hidden group-hover:block">
         {description}
       </p>
 
+      {onWatch && (
+        <button
+          onClick={onWatch}
+          className="mt-6 bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700">
+          Watch
+        </button>
+      )}
     </div>
-  )
+  );
 }
 
-export default CardNews
+export default CardNews;
