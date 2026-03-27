@@ -11,6 +11,9 @@ function Movie() {
   function handleClick() {
     navigate('/Episode');
   }
+  function nextMovie() {
+    navigate('/introduction');
+  }
 return (
   <div id='whole-container'>
 
@@ -18,7 +21,7 @@ return (
       <h1 id='movieLogo'>Movie</h1>
       <div id='tab-wrapper'>
         <div id='inner-movie'>Movie</div>
-        <div id='inner-movie'>  Another show </div>
+        <div id='inner-movie' onClick={nextMovie}>  More info </div>
       </div>
       <div id='box1'>
         <div id='left'>
