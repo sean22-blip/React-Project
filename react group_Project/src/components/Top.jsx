@@ -1,5 +1,6 @@
 // import React from 'react'
 import Header from './Header';
+import Episode from './Episode'
 import './../componets_CSS/Top.css'
 import logo from '../assets/logo.svg'
 import pink from '../assets/pink.jpg'
@@ -62,7 +63,11 @@ function Top() {
               </h2>
             </div>
             <div className='vd-bob'>
-                <img src={bob} alt="" />
+              <a href="https://www.youtube.com/watch?v=5LhDo-S2WYg&pp=ygUoc3BvbmdlYm9iIHNxdWFyZXBhbnRzIHRpdGFucyBvZiB0aGUgdGlkZQ%3D%3D">
+              <img src={bob} alt="" /></a>
+            </div>
+            <div className='prev-btn' >
+                <a href='./Episode.jsx'>Previous Episodes</a>
             </div>
           </div>
         </section>
