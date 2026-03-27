@@ -8,6 +8,7 @@ import oggy from '../assets/oggy1.png'
 import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import bob from '../assets/bob.avif'
+import spookiz from '../assets/spook.png'
 // import newVd from '../assets/new-vd.svg'
 function Top() {
   return (
@@ -67,10 +68,24 @@ function Top() {
               <img src={bob} alt="" /></a>
             </div>
             <div className='prev-btn' >
-                <a href='./Episode.jsx'>Previous Episodes</a>
+                <a href=''>Previous Episodes</a>
+            </div>
+          </div>
+          <div className='vd-deco'>
+            <div className='vd-deco-bg'>
+            <div className='vd-deco-char'>
+              <img src={spookiz}alt="" />
+            </div>
             </div>
           </div>
         </section>
+        <div className='intro'>
+          <div className='intro-inner'>
+          <h2 id='movieLogo'>Introduction</h2>
+
+          <div></div>
+          </div>
+        </div>
         <div id='btm'>
           <h4>Website Terms of Use</h4>
           <div id='footer'>
