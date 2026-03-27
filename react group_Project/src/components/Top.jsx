@@ -2,13 +2,6 @@
 import Header from './Header';
 import Episode from './Episode'
 import './../componets_CSS/Top.css'
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4afb433e0dca81026860eea7cd8ec96d16010f39
 import logo from '../assets/logo.svg'
 import pink from '../assets/pink.jpg'
 import oggy from '../assets/oggy1.png'
@@ -19,41 +12,10 @@ import tom from '../assets/tom.png'
 import simp from '../assets/simp.png'
 
 // import newVd from '../assets/new-vd.svg'
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 4433d95 (Added Introduction)
->>>>>>> bc3dad826c024344664cc796d8ccd835e4000e2d
-
-import pink from '../assets/pink.jpg'
-
-
-<<<<<<< HEAD
->>>>>>> b0c5912 (Intro)
-=======
-=======
-import logo from '../assets/logo.svg'
-import pink from '../assets/pink.jpg'
-import oggy from '../assets/oggy1.png'
-import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
-import bob from '../assets/bob.avif'
-// import newVd from '../assets/new-vd.svg'
->>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
->>>>>>> 4433d95 (Added Introduction)
->>>>>>> 4afb433e0dca81026860eea7cd8ec96d16010f39
 function Top() {
   return (
     <>
       <main>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4afb433e0dca81026860eea7cd8ec96d16010f39
         {/* <div className='image'>
           <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
         </div> */}
@@ -70,47 +32,6 @@ function Top() {
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 4433d95 (Added Introduction)
->>>>>>> bc3dad826c024344664cc796d8ccd835e4000e2d
-          <div className='image'>
-            <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
-          </div>
-        <div className='container'>
-          <div>
-            <img src={pink} alt="" className='pink'/>
-          </div>
-          <div className='sub_heading'>
-            <div className='sub'>WELCOME TO KIDDIZ</div>
-            <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> b0c5912 (Intro)
-=======
-=======
-        {/* <div className='image'>
-          <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
-        </div> */}
-        <div className='container'>
-          <div className='slide_wrapper'>
-            <div className='slider'>
-              <div className='slide'>
-                <div>
-                  <img src={pink} alt="" className='pink' />
-                </div>
-                <div className='sub_heading'>
-                  <div className='sub'>WELCOME TO KIDDIZ</div>
-                  <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
-                </div>
-              </div>
-            </div>
->>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
->>>>>>> 4433d95 (Added Introduction)
->>>>>>> 4afb433e0dca81026860eea7cd8ec96d16010f39
           </div>
         </div>
         <div className='mid'>
@@ -135,7 +56,6 @@ function Top() {
                 </div>
               </div>
             </div>
->>>>>>> bc3dad826c024344664cc796d8ccd835e4000e2d
           </div>
         </div>
         <div className='p-vd p-section is-scroll-active'>
@@ -202,27 +122,6 @@ function Top() {
 
         
       </main >
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 4433d95 (Added Introduction)
-
-        </div>
-      </main>
-      
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> b0c5912 (Intro)
-=======
-=======
-        </div> */}
-      </main >
->>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
->>>>>>> 4433d95 (Added Introduction)
->>>>>>> bc3dad826c024344664cc796d8ccd835e4000e2d
->>>>>>> 4afb433e0dca81026860eea7cd8ec96d16010f39
     </>
   );
 }
