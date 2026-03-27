@@ -4,9 +4,10 @@ import './../componets_CSS/Top.css'
 import logo from '../assets/logo.svg'
 import pink from '../assets/pink.jpg'
 import oggy from '../assets/oggy1.png'
+import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
+import bob from '../assets/bob.avif'
 // import newVd from '../assets/new-vd.svg'
-// import newText from '../assets/new.png'
-// import skull from '../assets/skull.png'
 function Top() {
   return (
     <>
@@ -39,10 +40,10 @@ function Top() {
                 <h1><img src={logo} alt="" /></h1>
                 <div className='mid-description'>
                   <p>
-                    Kiddiz is the funny and unexpected 
-                    brand that stands out from the pack in a way 
-                    in which kids can relate. Our cartoon-crammed 
-                    network delivers hilarious comedy, unexpected 
+                    Kiddiz is the funny and unexpected
+                    brand that stands out from the pack in a way
+                    in which kids can relate. Our cartoon-crammed
+                    network delivers hilarious comedy, unexpected
                     surprises and edge-of-your-seat action through
                     the best in animated series and hit blockbuster
                     movies. Kiddiz is where anything is possible,
@@ -53,6 +54,34 @@ function Top() {
             </div>
           </div>
         </div>
+        <section className='p-vd p-section is-scroll-active'>
+          <div className='p-vd__inner'>
+            <div className='p-vd__title c-title'>
+              <h2 id='movieLogo'>
+                New Video
+              </h2>
+            </div>
+            <div className='vd-bob'>
+                <img src={bob} alt="" />
+            </div>
+          </div>
+        </section>
+        <div id='btm'>
+          <h4>Website Terms of Use</h4>
+          <div id='footer'>
+            <FaYoutube />
+            <FaTiktok />
+            <FaInstagram />
+            <FaXTwitter />
+            <FaFacebook />
+            <span id='divider'>|</span>
+            <FaInstagram />
+            <FaXTwitter />
+            <span>for Cambodian</span>
+          </div>
+          <h5>@Sony Music Labels Inc.</h5>
+        </div>
+
         {/* <section className='p-vd p-section is-scroll-active'>
           <div className='p-vd__inner'>
             <div className='p-vd__title c-title'>
@@ -98,7 +127,7 @@ function Top() {
             </div>
           </div>
         </div> */}
-      </main>
+      </main >
     </>
   );
 }
