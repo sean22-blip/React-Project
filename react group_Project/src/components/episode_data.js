@@ -40,6 +40,7 @@ import Simpson7 from "../assets/ep_img/Simpson7.jpg"
 import Simpson8 from "../assets/ep_img/Simpson8.jpg"
 import Simpson9 from "../assets/ep_img/Simpson9.jpg"
 import Simpson10 from "../assets/ep_img/Simpson10.jpg"
+
 import SpongeBob1 from "../assets/ep_img/SpongeBob1.jpg"
 import SpongeBob2 from "../assets/ep_img/SpongeBob2.jpg"
 import SpongeBob3 from "../assets/ep_img/SpongeBob3.jpg"
