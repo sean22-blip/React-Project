@@ -13,15 +13,19 @@ function News() {
 
    
       <div className="bg-[#1e4a87] py-20 text-center text-[#ffc83d]">
+<<<<<<< HEAD
         <h1 className="text-8xl font-bold drop-shadow-lg" style={{ textShadow: "4px 4px 8px black" }}>News</h1>
+=======
+        <h1 id='movieLogo'>News</h1>
+>>>>>>> fc296ca2151c675ba9d6c171514b8f562de6c527
 
         <div className="flex justify-center gap-6 mt-10">
-          <button className="bg-black px-16 py-4 rounded-full text-white text-xl">
+          <button className=" cursor-pointer bg-black px-16 py-4 rounded-full text-white text-xl">
             Search
           </button>
 
           <button
-            className="bg-black px-16 py-4 rounded-full text-white text-xl"
+            className=" cursor-pointer  bg-black px-16 py-4 rounded-full text-white text-xl"
             onClick={() => setShowMore(!showMore)}
           >
             {showMore ? 'Show Less' : 'See More'}
@@ -62,7 +66,7 @@ function News() {
 
         <CardNews
           date="26.03.16"
-          title="sprong bob "
+          title="Spongebob "
           description="Enjoy the latest episode featuring fun adventures and hilarious moments with Oggy and his friends."
           onWatch={() =>
             window.open("hhttps://www.youtube.com/watch?t=5&v=Is46HmWWhXo")
