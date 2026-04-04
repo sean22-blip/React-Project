@@ -9,11 +9,11 @@ function News() {
  
 
   return (
-    <div className="w-full">
+    <div className="w-full mt-4">
 
    
       <div className="bg-[#1e4a87] py-20 text-center text-[#ffc83d]">
-        <h1 className="text-8xl font-bold drop-shadow-lg">News</h1>
+        <h1 className="text-8xl font-bold drop-shadow-lg" style={{ textShadow: "4px 4px 8px black" }}>News</h1>
 
         <div className="flex justify-center gap-6 mt-10">
           <button className="bg-black px-16 py-4 rounded-full text-white text-xl">
