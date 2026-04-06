@@ -1,11 +1,6 @@
 .Page{
-<<<<<<< HEAD
     min-height:100vh;
     background:url(../assets/bg.gif);
-=======
-
-    background:#1e4a87;
->>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -25,13 +20,8 @@
     margin-top:30px;
 }
 .card{
-<<<<<<< HEAD
     width: 95vh;
     height:90vh;
-=======
-    width: 90vh;
-    /* height:80vh; */
->>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
     border-radius:15px;
     padding:15px;
     color: rgba(240, 248, 255, 0.94);
@@ -53,19 +43,11 @@
 }
 
 .card-img{
-<<<<<<< HEAD
   width: 95%;
   height: 250px;
   /* object-fit: cover; */
   border-radius: 10px;
   justify-content: center;
-=======
-  width: 90%;
-  
-  /* height: 300px; */
-  object-fit: cover;
-  /* border-radius: 10px; */
->>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
 }
 
 #btm {

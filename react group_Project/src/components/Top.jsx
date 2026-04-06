@@ -12,15 +12,10 @@ import tom from '../assets/tom.png'
 import simp from '../assets/simp.png'
 
 // import newVd from '../assets/new-vd.svg'
-<<<<<<< HEAD
-
-=======
->>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
 function Top() {
   return (
     <>
       <main>
-<<<<<<< HEAD
 
         <div className='container'/>
           <div>
@@ -30,8 +25,6 @@ function Top() {
             <div className='sub'>WELCOME TO KIDDIZ</div>
             <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
 
-=======
->>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
         {/* <div className='image'>
           <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
         </div> */}
@@ -43,13 +36,8 @@ function Top() {
                   <img src={pink} alt="" className='pink' />
                 </div>
                 <div className='sub_heading'>
-<<<<<<< HEAD
                   <div className='sub'>WELCOME TO KIDDIZ</div>
                   <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
-=======
-                  <div className='sub font-medium'>WELCOME TO KIDDIZ</div>
-                  <div className='heading font-medium'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
->>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
                 </div>
               </div>
             </div>
@@ -140,16 +128,10 @@ function Top() {
           </div>
           <h5>@Sony Music Labels Inc.</h5>
         </div>
-<<<<<<< HEAD
         </div>
       </main>
       
 
-=======
-
-        
-      </main >
->>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
     </>
   );
 }
