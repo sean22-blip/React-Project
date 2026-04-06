@@ -1,121 +1,65 @@
-import React, { useState } from 'react'
-import CardNews from './CardNews'
-import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
-
+import React, { useState } from "react"
+import CardNews from "./CardNews"
+import { newsData } from "./news"
+import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6"
 
 function News() {
-  const [showMore, setShowMore] = useState(false)
- 
+  const [showMore, setShowMore] = useState(false);
+
+  
+  const newsToShow = showMore ? newsData.slice(0, 6) : newsData.slice(0, 4);
 
   return (
     <div className="w-full mt-4">
-
-   
+    
       <div className="bg-[#1e4a87] py-20 text-center text-[#ffc83d]">
-
-        <h1 id ='movieLogo'>News</h1>
-
-
+        <h1 id="movieLogo">News</h1>
         <div className="flex justify-center gap-6 mt-10">
-          <button className=" cursor-pointer bg-black px-16 py-4 rounded-full text-white text-xl">
+          <button className="cursor-pointer bg-black px-16 py-4 rounded-full text-white text-xl">
             Search
           </button>
-
           <button
-            className=" cursor-pointer  bg-black px-16 py-4 rounded-full text-white text-xl"
+            className="cursor-pointer bg-black px-16 py-4 rounded-full text-white text-xl"
             onClick={() => setShowMore(!showMore)}
           >
-            {showMore ? 'Show Less' : 'See More'}
+            {showMore ? "Show Less" : "See More"}
           </button>
         </div>
       </div>
 
-    
+  
       <div className="bg-[#1e4a87] py-16 flex flex-col items-center gap-8">
-        <CardNews
-          date="26.03.20"
-          title='Episode 8 of "oggy" has been released!'
-          description="Enjoy the latest episode featuring fun adventures and hilarious moments with Oggy and his friends."
-          onWatch={() =>
-            window.open("https://www.youtube.com/watch?v=eTSVEnCHDeY&list=PL-d4D7FQaDKMKmZD-nmHpdnbO7YZRipC6")
-          }
-        />
-            
-
-        <CardNews
-          date="26.03.16"
-          title="Tom and Jery has been released!"
-          description="Enjoy the latest episode featuring fun adventures and hilarious moments with Oggy and his friends."
-          onWatch={() =>
-            window.open("https://www.youtube.com/watch?t=16&v=yop3Ts3bK8o")
-          }
-        />
-
-        <CardNews
-          date="26.03.16"
-          title="Pink panther "
-          description="Enjoy the latest episode featuring fun adventures and hilarious moments with Oggy and his friends."
-          onWatch={() =>
-            window.open("https://www.youtube.com/watch?t=8&v=zlCq-e05vVg")
-          }
-        />
-
-
-        <CardNews
-          date="26.03.16"
-          title="Spongebob "
-          description="Enjoy the latest episode featuring fun adventures and hilarious moments with Oggy and his friends."
-          onWatch={() =>
-            window.open("hhttps://www.youtube.com/watch?t=5&v=Is46HmWWhXo")
-          }
-        />
-
-
-      
-        {showMore && (
-          <>
-            <CardNews
-          date="26.03.16"
-          title="Spongebob "
-          description="Enjoy the latest episode featuring fun adventures and hilarious moments with Oggy and his friends."
-          onWatch={() =>
-            window.open("hhttps://www.youtube.com/watch?t=5&v=Is46HmWWhXo")
-          }
-        />
-
-            <CardNews
-          date="26.03.16"
-          title="Spongebob "
-          description="Enjoy the latest episode featuring fun adventures and hilarious moments with Oggy and his friends."
-          onWatch={() =>
-            window.open("hhttps://www.youtube.com/watch?t=5&v=Is46HmWWhXo")
-          }
-        />
-          </>
-        )}
-
+        {newsToShow.map((news) => (
+          <CardNews
+            key={news.id} 
+            date={news.date}
+            title={news.title}
+            description={news.description}
+            image={news.image}
+            onWatch={news.onWatch}
+          />
+        ))}
       </div>
 
-      <div id='btm'>
-          <h4>Website Terms of Use</h4>
-          <div id='footer'>
-            <FaYoutube />
-            <FaTiktok />
-            <FaInstagram />
-            <FaXTwitter />
-            <FaFacebook />
-            <span id='divider'>|</span>
-            <FaInstagram />
-            <FaXTwitter />
-            <span>for Cambodian</span>
-          </div>
-          <h5>@Sony Music Labels Inc.</h5>
+   
+      <div id="btm" className="mt-10 text-center text-white">
+        <h4>Website Terms of Use</h4>
+        <div id="footer" className="flex justify-center gap-4 items-center mt-2">
+          <FaYoutube />
+          <FaTiktok />
+          <FaInstagram />
+          <FaXTwitter />
+          <FaFacebook />
+          <span id="divider">|</span>
+          <FaInstagram />
+          <FaXTwitter />
+          <span>for Cambodian</span>
         </div>
-
-
+        <h5>@Sony Music Labels Inc.</h5>
+      </div>
     </div>
-  )
+  );
 }
 
-export default News
+export default News;
