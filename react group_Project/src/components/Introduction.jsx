@@ -6,14 +6,14 @@ import OImg from '../assets/og.png'
 import SImg from '../assets/spongebob.png'
 import HImg from '../assets/simpson.png'
 import PiImg from '../assets/P.png'
-import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
+import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 function Introduction() { 
   return ( <> 
   <Header/> 
   <div>
   <div className="Page"> 
-    <h1 className='title'>Introduction</h1> 
+    <h1 id='movieLogo'>Introduction</h1> 
     <div className="card-container"> 
       <div className="Tom card"> 
         <h1 className='story-title'>Tom and Jerry</h1> 
@@ -33,7 +33,7 @@ function Introduction() {
           watching TV, doing housework, gardening, cooking, eating, or trying to woo over Olivia.
         </p>
         <p>The Cockroaches are a trio of hedonistic, sadistic and problematic cockroaches named Joey, Marky, and Dee Dee (who are implied to be named after members of the rock band Ramones).</p>
-        <p>Jack is Oggy's cousin. In contrast to Oggy, he is more violent and arrogant than him.</p>
+        {/* <p>Jack is Oggy's cousin. In contrast to Oggy, he is more violent and arrogant than him.</p> */}
         <img src={OImg} alt="oggy" className='card-img' />
       </div> 
       <div className="Spon card"> 
@@ -51,9 +51,10 @@ function Introduction() {
         <h3>Main Characters</h3>
         <p>Homer Simpson is the lazy but lovable father who works at the Springfield Nuclear Power Plant. He enjoys donuts, beer, and spending time with his family, though his silly mistakes often cause trouble.</p>
         <p>Marge Simpson is the caring and patient mother who keeps the family together. She is hardworking, responsible, and often the voice of reason in the household.</p>
-        <p>Bart Simpson is the mischievous and rebellious son. He loves pranks, skateboarding, and causing trouble at school, but he also shows a caring side for his family.</p>
+        {/* <p>Bart Simpson is the mischievous and rebellious son. He loves pranks, skateboarding, and causing trouble at school, but he also shows a caring side for his family.</p> */}
         <img src={HImg} alt="Simpson" className='card-img' />
       </div> 
+      <div className=''>
       <div className="pink card"> 
         <h1 className='story-title'>The Pink Panther</h1> 
         <p>The Pink Panther wanders through comical and tricky situations, using wit and charm to solve problems while making everyone laugh along the way.</p><br></br>
@@ -61,7 +62,9 @@ function Introduction() {
         <p>The Pink Panther is a clever and silent pink cat known for his smooth moves and humorous adventures. He often outsmarts his enemies and gets into funny situations, all without saying a word.</p>
         <p>Inspector Clouseau is a bumbling but determined detective who constantly tries to catch the Pink Panther. Despite his clumsiness, his persistence and accidental successes make him both funny and lovable.</p>
         <p>The Little Man is a recurring character who often acts as the Pink Panther’s foil. He gets caught up in the Panther’s clever tricks, leading to humorous and unexpected outcomes.</p>
-        <img src={PiImg} alt="Pink" className='card-img'/>
+        <img src={PiImg} alt="Pink" className='card-img object-cover'/>
+      </div>
+
       </div>
  
   </div>

@@ -1,4 +1,4 @@
-@media (min-width: 64rem) {
+ @media (min-width: 64rem) {
     .slide-wrapper {
         height: 450px;
     }
@@ -233,6 +233,7 @@ p {
     }
 }
 
+
 .prev-btn {
     border-radius: 50rem;
     margin-top: 40px;
@@ -319,4 +320,3 @@ p {
         font-size: 1rem;
     }
 }
- 

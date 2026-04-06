@@ -1,6 +1,6 @@
 .Page{
-
-    background:#1e4a87;
+    min-height:100vh;
+    background:url(../assets/bg.gif);
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -13,15 +13,16 @@
     padding:40px;
 }
 
-.title{
+/* .title{
     text-align:center;
-    font-size:60px;
+    font-size:100px;
     color:#ffc83d;
     margin-top:30px;
-}
+} */
 .card{
-    width: 90vh;
-    /* height:80vh; */
+
+    width: 95vh;
+    height:90vh;
     border-radius:15px;
     padding:15px;
     color: rgba(240, 248, 255, 0.94);
@@ -34,7 +35,8 @@
     
 }
 .story-title{
-    color: rgba(255, 166, 0, 0.826);;
+    color: rgba(255, 166, 0, 0.826);
+    font-size: 40px;
 }
 
 .card:hover{
@@ -42,11 +44,13 @@
 }
 
 .card-img{
-  width: 90%;
+
+  width: 95%;
+  height: 250px;
+  object-fit:contain;
+  border-radius: 10px;
+  justify-content: center;
   
-  /* height: 300px; */
-  object-fit: cover;
-  /* border-radius: 10px; */
 }
 
 #btm {

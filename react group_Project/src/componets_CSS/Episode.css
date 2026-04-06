@@ -1,4 +1,4 @@
-/* Page Container */
+
 .episode-page {
   padding: 20px;
   text-align: center;
@@ -6,7 +6,6 @@
   background:  #1e4a87;
 }
 
-/* Page Title */
 .episode-page h1 {
   font-size: 30px;
   margin-bottom: 20px;
@@ -15,7 +14,6 @@
   text-shadow: 3px 3px 0px #000000;
 }
 
-/* Category Buttons */
 .category-bar {
   display: flex;
   justify-content: center;
@@ -40,7 +38,7 @@
 
 .category-bar button.active,
 .category-bar button:hover {
-  background-color: #000000; /* playful color like Spookiz */
+  background-color: #000000; 
   color: white;
   
 }
@@ -79,16 +77,14 @@
   margin-top: 20px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 }
-/* Episode Grid */
 .episode-grid {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(4, 1fr);
 
 }
-
-/* Episode Card */
 .episode-card {
+  position: relative;
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
@@ -115,17 +111,32 @@
   font-weight: bold;
   color: #333;
 }
+.episode-card::after {
+  content: "▶";
+  position: absolute;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.episode-card:hover::after {
+  opacity: 1;
+}
 @media (max-width: 900px) {
 
   .episode-grid {
-    grid-template-columns: repeat(3, 1fr); /* 2 episodes per row */
+    grid-template-columns: repeat(3, 1fr); 
   }
   
 }
 
 @media (max-width: 768px) {
   .episode-grid {
-    grid-template-columns: repeat(2,1fr); /* 1 episode per row */
+    grid-template-columns: repeat(2,1fr);
     
   }
     .category-bar{
@@ -142,7 +153,7 @@
 }
 @media (max-width: 600px) {
   .episode-grid {
-    grid-template-columns: 1fr; /* 1 episode per row */
+    grid-template-columns: 1fr; 
     
   }
   .category-bar{
