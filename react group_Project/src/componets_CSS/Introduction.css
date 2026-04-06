@@ -20,6 +20,7 @@
     margin-top:30px;
 }
 .card{
+
     width: 95vh;
     height:90vh;
     border-radius:15px;
@@ -43,11 +44,13 @@
 }
 
 .card-img{
+
   width: 95%;
   height: 250px;
-  /* object-fit: cover; */
+  object-fit:contain;
   border-radius: 10px;
   justify-content: center;
+  
 }
 
 #btm {

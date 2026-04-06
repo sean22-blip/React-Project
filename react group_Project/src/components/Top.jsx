@@ -16,15 +16,6 @@ function Top() {
   return (
     <>
       <main>
-
-        <div className='container'/>
-          <div>
-            <img src={pink} alt="" className='pink'/>
-          </div>
-          <div className='sub_heading'>
-            <div className='sub'>WELCOME TO KIDDIZ</div>
-            <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
-
         {/* <div className='image'>
           <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
         </div> */}
@@ -36,8 +27,8 @@ function Top() {
                   <img src={pink} alt="" className='pink' />
                 </div>
                 <div className='sub_heading'>
-                  <div className='sub'>WELCOME TO KIDDIZ</div>
-                  <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
+                  <div className='sub font-medium'>WELCOME TO KIDDIZ</div>
+                  <div className='heading font-medium'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
                 </div>
               </div>
             </div>
@@ -102,6 +93,7 @@ function Top() {
                 <div className='mt-10'>
                 <h2 className='mb-2'>Tom and Jerry – nonstop chase and clever tricks</h2>
                 <h2 className='mb-2'>Oggy and the Cockroaches – silly chaos and endless mischief</h2>
+                
                 <h2 className='mb-2'>The Pink Panther Show – smooth, funny, and full of surprises</h2>
                 <h2 className='mb-2'>SpongeBob SquarePants – bubbly fun from the deep blue sea</h2>
                 <h2>The Simpsons – wild family laughs and crazy moments</h2>
@@ -128,10 +120,9 @@ function Top() {
           </div>
           <h5>@Sony Music Labels Inc.</h5>
         </div>
-        </div>
-      </main>
-      
 
+        
+      </main >
     </>
   );
 }

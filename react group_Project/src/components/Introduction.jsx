@@ -54,6 +54,7 @@ function Introduction() {
         {/* <p>Bart Simpson is the mischievous and rebellious son. He loves pranks, skateboarding, and causing trouble at school, but he also shows a caring side for his family.</p> */}
         <img src={HImg} alt="Simpson" className='card-img' />
       </div> 
+      <div className=''>
       <div className="pink card"> 
         <h1 className='story-title'>The Pink Panther</h1> 
         <p>The Pink Panther wanders through comical and tricky situations, using wit and charm to solve problems while making everyone laugh along the way.</p><br></br>
@@ -61,7 +62,9 @@ function Introduction() {
         <p>The Pink Panther is a clever and silent pink cat known for his smooth moves and humorous adventures. He often outsmarts his enemies and gets into funny situations, all without saying a word.</p>
         <p>Inspector Clouseau is a bumbling but determined detective who constantly tries to catch the Pink Panther. Despite his clumsiness, his persistence and accidental successes make him both funny and lovable.</p>
         <p>The Little Man is a recurring character who often acts as the Pink Panther’s foil. He gets caught up in the Panther’s clever tricks, leading to humorous and unexpected outcomes.</p>
-        <img src={PiImg} alt="Pink" className='card-img'/>
+        <img src={PiImg} alt="Pink" className='card-img object-cover'/>
+      </div>
+
       </div>
  
   </div>
