@@ -6,8 +6,8 @@ import OImg from '../assets/og.png'
 import SImg from '../assets/spongebob.png'
 import HImg from '../assets/simpson.png'
 import PiImg from '../assets/P.png'
-import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
+import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 function Introduction() { 
   return ( <> 
   <Header/> 
@@ -33,7 +33,7 @@ function Introduction() {
           watching TV, doing housework, gardening, cooking, eating, or trying to woo over Olivia.
         </p>
         <p>The Cockroaches are a trio of hedonistic, sadistic and problematic cockroaches named Joey, Marky, and Dee Dee (who are implied to be named after members of the rock band Ramones).</p>
-        <p>Jack is Oggy's cousin. In contrast to Oggy, he is more violent and arrogant than him.</p>
+        {/* <p>Jack is Oggy's cousin. In contrast to Oggy, he is more violent and arrogant than him.</p> */}
         <img src={OImg} alt="oggy" className='card-img' />
       </div> 
       <div className="Spon card"> 
@@ -51,7 +51,7 @@ function Introduction() {
         <h3>Main Characters</h3>
         <p>Homer Simpson is the lazy but lovable father who works at the Springfield Nuclear Power Plant. He enjoys donuts, beer, and spending time with his family, though his silly mistakes often cause trouble.</p>
         <p>Marge Simpson is the caring and patient mother who keeps the family together. She is hardworking, responsible, and often the voice of reason in the household.</p>
-        <p>Bart Simpson is the mischievous and rebellious son. He loves pranks, skateboarding, and causing trouble at school, but he also shows a caring side for his family.</p>
+        {/* <p>Bart Simpson is the mischievous and rebellious son. He loves pranks, skateboarding, and causing trouble at school, but he also shows a caring side for his family.</p> */}
         <img src={HImg} alt="Simpson" className='card-img' />
       </div> 
       <div className="pink card"> 
