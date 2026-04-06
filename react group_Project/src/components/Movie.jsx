@@ -1,7 +1,7 @@
 import React from 'react'
 import "../componets_CSS/Movie.css"
 import oggyMovie from "../assets/oggyMovie.png"
-import tom from "../assets/tom.png"
+import tj from "../assets/tj.png"
 import spongebb from "../assets/spongebb.png"
 import simpsonmovie from "../assets/simpsonmovie.png"
 import ppmovie from "../assets/ppmovie.png"
@@ -40,7 +40,7 @@ function Movie() {
         </div>
         <div id='box1'>
           <div id='left'>
-            <img src={tom} alt="oggy" id='oggy' />
+            <img src={tj} alt="oggy" id='oggy' />
           </div>
           <div id='right'>
             <h2>"A cat and a mouse – a rivalry that was never meant to end… Yet no matter what, they always find their way back!"</h2>
