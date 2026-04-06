@@ -11,6 +11,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 function Introduction() { 
   return ( <> 
   <Header/> 
+  <div>
   <div className="Page"> 
     <h1 className='title'>Introduction</h1> 
     <div className="card-container"> 
@@ -62,10 +63,10 @@ function Introduction() {
         <p>The Little Man is a recurring character who often acts as the Pink Panther’s foil. He gets caught up in the Panther’s clever tricks, leading to humorous and unexpected outcomes.</p>
         <img src={PiImg} alt="Pink" className='card-img'/>
       </div>
-      
-    </div> 
+ 
+  </div>
   </div> 
-  <div id='btm'>
+      <div id='btm'>
           <h4>Website Terms of Use</h4>
           <div id='footer'>
             <FaYoutube />
@@ -80,7 +81,6 @@ function Introduction() {
           </div>
           <h5>@Sony Music Labels Inc.</h5>
         </div>
- 
-  
+    </div> 
   </> ) 
 } export default Introduction

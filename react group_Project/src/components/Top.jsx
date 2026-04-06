@@ -8,13 +8,19 @@ import oggy from '../assets/oggy1.png'
 import { FaYoutube, FaTiktok, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import bob from '../assets/bob.avif'
-import spookiz from '../assets/spook.png'
-// import newVd from '../assets/new-vd.svg'
+import tom from '../assets/tom.png'
+import simp from '../assets/simp.png'
 
+// import newVd from '../assets/new-vd.svg'
+<<<<<<< HEAD
+
+=======
+>>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
 function Top() {
   return (
     <>
       <main>
+<<<<<<< HEAD
 
         <div className='container'/>
           <div>
@@ -24,6 +30,8 @@ function Top() {
             <div className='sub'>WELCOME TO KIDDIZ</div>
             <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
 
+=======
+>>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
         {/* <div className='image'>
           <img src="https://static-media.fox.com/fmc/prod/fts/artwork/VX-15115006/e5gbs24shff0agug.jpg" alt="" />
         </div> */}
@@ -35,8 +43,13 @@ function Top() {
                   <img src={pink} alt="" className='pink' />
                 </div>
                 <div className='sub_heading'>
+<<<<<<< HEAD
                   <div className='sub'>WELCOME TO KIDDIZ</div>
                   <div className='heading'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
+=======
+                  <div className='sub font-medium'>WELCOME TO KIDDIZ</div>
+                  <div className='heading font-medium'>Endless hilarious comedy, unexpected surprises & edge-of-your-seat action of the best in animation</div>
+>>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
                 </div>
               </div>
             </div>
@@ -82,18 +95,34 @@ function Top() {
             </div>
           </div>
           <div className='vd-deco'>
-            <div className='vd-deco-bg'>
+            <div className='vd-deco-bg '>
             <div className='vd-deco-char'>
-              <img src={spookiz}alt="" />
+              <img src={tom}alt="" />
+              {/* <img src={jerry} alt="" /> */}
             </div>
             </div>
           </div>
         </section>
-        <div className='intro'>
-          <div className='intro-inner'>
-          <h2 id='movieLogo'>Introduction</h2>
-
-          <div></div>
+        <div className='intro '>
+          <div className='intro-inner '>
+          <h2 id='movieLogo'>Introduction</h2>         
+          <div className=' justify-center text-center text-lg w-[90vh]   m-[50px] m-auto  rounded-2xl  border-2 shadow-2xl  p-[15px] text-white'>
+            <div className='mt-4 '>
+              <h2>In a world full of laughter 
+                and fun… the craziest cartoons come together!</h2>
+                <h2 className='mt-10'>[ FUN + KIDS = Kiddiz ]</h2>
+                <div className='mt-10'>
+                <h2 className='mb-2'>Tom and Jerry – nonstop chase and clever tricks</h2>
+                <h2 className='mb-2'>Oggy and the Cockroaches – silly chaos and endless mischief</h2>
+                <h2 className='mb-2'>The Pink Panther Show – smooth, funny, and full of surprises</h2>
+                <h2 className='mb-2'>SpongeBob SquarePants – bubbly fun from the deep blue sea</h2>
+                <h2>The Simpsons – wild family laughs and crazy moments</h2>
+                </div>
+            </div>
+            <h2 className='mt-[40px]'>Different styles. Different laughs. One amazing world.</h2>
+            <img src={simp} alt="" className='   object-cover  p-3 justify-center' />
+            
+          </div>
           </div>
         </div>
         <div id='btm'>
@@ -111,10 +140,16 @@ function Top() {
           </div>
           <h5>@Sony Music Labels Inc.</h5>
         </div>
+<<<<<<< HEAD
         </div>
       </main>
       
 
+=======
+
+        
+      </main >
+>>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
     </>
   );
 }

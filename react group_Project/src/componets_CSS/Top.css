@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .container{
     background-color: #0693e3;
@@ -30,6 +31,8 @@ img{
 .pink{
     width: 50%;
 
+=======
+>>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
 @media (min-width: 64rem) {
     .slide-wrapper {
         height: 450px;
@@ -112,7 +115,7 @@ main {
 
 .sub {
     font-size: 1rem;
-    font-weight: 700;
+    /* font-weight: 400; */
     letter-spacing: .031rem;
     line-height: 1.5;
     margin-bottom: .7rem;
@@ -129,7 +132,7 @@ main {
 @media (min-width: 48rem) {
     .heading {
         font-size: 2.25rem;
-        font-weight: 700;
+        /* font-weight: 700; */
         letter-spacing: .031rem;
         line-height: 1.22;
     }
@@ -137,7 +140,7 @@ main {
 
 .heading {
     font-style: 1.87rem;
-    font-weight: 700;
+    /* font-weight: 700; */
     letter-spacing: .031rem;
     line-height: 1.13;
     margin-bottom: 1.2rem;
@@ -325,18 +328,16 @@ p {
     bottom: 0;
     background: url(../assets/bg.png) repeat-x left bottom / 843px 352px;
     transform: translateY(10px);
-    /* opacity: 0; */
-    transition: opacity 0.7s var(--ease-main) 0.5s, transform 0.7s var(--ease-main) 0.5s;
-        animation: opacity  5s linear infinite;
+    
 }
 @media screen and (max-width: 899px) {
     .vd-deco-char {
-        width: 90%;
+        width: 50%;
         margin: 0 auto 15px;
     }
 }
 .vd-deco-char{
-    width: 770px;
+    width: 400px;
     margin: 0 auto 12px;
     position: relative;
     transform: translateY(-20px);
@@ -347,12 +348,13 @@ p {
     background: url(../assets/sky.jpg) no-repeat center top / cover;
     position: relative;
 }
-
-/* @media screen and (max-width: 889px) {
-    .p-vd {
-        padding: 61px 0 230px;
+@media(max-width:899px){
+    h2{
+        font-weight: 200;
+        font-size: 1rem;
     }
 }
+<<<<<<< HEAD
 section{
     display: block;
 .container{
@@ -871,3 +873,6 @@ img{
         font-size: 2rem;
     }
 } */
+=======
+ 
+>>>>>>> d6c4757edcebb593b9ff5d730eee4ad83014c199
