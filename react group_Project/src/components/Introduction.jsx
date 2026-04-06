@@ -13,7 +13,7 @@ function Introduction() {
   <Header/> 
   <div>
   <div className="Page"> 
-    <h1 className='title'>Introduction</h1> 
+    <h1 id='movieLogo'>Introduction</h1> 
     <div className="card-container"> 
       <div className="Tom card"> 
         <h1 className='story-title'>Tom and Jerry</h1> 
