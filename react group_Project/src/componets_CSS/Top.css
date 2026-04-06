@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .container{
     background-color: #0693e3;
     padding-top: 80px;
@@ -29,9 +29,7 @@ img{
 }
 .pink{
     width: 50%;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 @media (min-width: 64rem) {
     .slide-wrapper {
         height: 450px;
@@ -357,9 +355,6 @@ p {
 }
 section{
     display: block;
-=======
-=======
->>>>>>> 4433d95 (Added Introduction)
 .container{
     background-color: #0693e3;
     padding-top: 80px;
@@ -390,12 +385,8 @@ img{
 }
 .pink{
     width: 50%;
-<<<<<<< HEAD
->>>>>>> b0c5912 (Intro)
 }
 
-=======
-=======
 @media (min-width: 64rem) {
     .slide-wrapper {
         height: 450px;
@@ -426,8 +417,8 @@ main {
 }
 
 .slide {
-    /* background-color: #02a6d6; */
-    /* padding-top: 80px; */
+    background-color: #02a6d6;
+    padding-top: 80px;
     background: #1e4a87;
     display: flex;
     align-items: center;
@@ -569,7 +560,6 @@ main {
 
 .mid-content-area {
     flex: 2;
->>>>>>> bc3dad826c024344664cc796d8ccd835e4000e2d
 }
 
 .mid-description {
@@ -666,10 +656,8 @@ p {
 }
 section{
     display: block;
->>>>>>> b248b9c171a0e1c5b55a4b9786825572d72fbafb
 }
 
->>>>>>> 4433d95 (Added Introduction)
 .p-vd__title {
     width: 574px;
     margin: 0 auto 49px;
