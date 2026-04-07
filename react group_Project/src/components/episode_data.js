@@ -128,7 +128,7 @@ export const movie = {
     "Season 5": createSeason(240, spongeImages5),
 },
   "Homer J. Simpson": {
-    video:  "https://youtu.be/gFHI5CDlubQ?si=XQUXQROMiOHRuUAe",
+    video:  "https://youtu.be/gFHI5CDlubQ?si=XQUXQROMiOHRuUAe", 
     "Season 1": createSeason(300, simpsonImages1),
     "Season 2": createSeason(310, simpsonImages2),
     "Season 3": createSeason(320, simpsonImages3),
