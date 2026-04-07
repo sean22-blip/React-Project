@@ -69,7 +69,7 @@ const createSeason = (startId, images, totalEpisodes = 10) => {
   return Array.from({ length: totalEpisodes }, (_, i) => ({
     id: startId + i + 1,
     title: `Episode ${i + 1}`,
-    img: images[i % images.length], // loops images if not enough
+    img: images[i % images.length], 
   }));
 };
 const oggyImages1 = [Oggy14,Oggy3, Oggy5, Oggy7, Oggy9,];
@@ -104,6 +104,7 @@ const tomImages5 = [Tom1,Tom6,Tom3,Tom8,Tom5];
 
 export const movie = {
   "Oggy and the Cockroaches": {
+    video: "https://youtu.be/Vtq-VWlDOSU?si=oxIIgNf8Lxondnq3",
     "Season 1": createSeason(0, oggyImages1),
     "Season 2": createSeason(10, oggyImages2),
     "Season 3": createSeason(20, oggyImages3),
@@ -111,6 +112,7 @@ export const movie = {
     "Season 5": createSeason(40, oggyImages5),
   },
   "Tom and Jery": {
+    video:  "https://youtu.be/giO_iq5Xe_c?si=WT7CAx6U7xpP0c04",
     "Season 1": createSeason(10, tomImages1),
     "Season 2": createSeason(110, tomImages2),
     "Season 3": createSeason(120, tomImages3),
@@ -118,6 +120,7 @@ export const movie = {
     "Season 5": createSeason(140, tomImages5),
 },
   "SpongeBob": {
+    video: "https://youtu.be/4q56LYs-Lsc?si=S1o2LAi3aZplxswU",
     "Season 1": createSeason(210, spongeImages1),
     "Season 2": createSeason(210, spongeImages2),
     "Season 3": createSeason(220, spongeImages3),
@@ -125,6 +128,7 @@ export const movie = {
     "Season 5": createSeason(240, spongeImages5),
 },
   "Homer J. Simpson": {
+    video:  "https://youtu.be/gFHI5CDlubQ?si=XQUXQROMiOHRuUAe",
     "Season 1": createSeason(300, simpsonImages1),
     "Season 2": createSeason(310, simpsonImages2),
     "Season 3": createSeason(320, simpsonImages3),
@@ -132,6 +136,7 @@ export const movie = {
     "Season 5": createSeason(340, simpsonImages5),
   },
   "Pink Panther": {
+    video: "https://youtu.be/WDrAKCf6_Sg?si=uOqeXATSikQ442cB",
     "Season 1": createSeason(400, pinkImages1),
     "Season 2": createSeason(410, pinkImages2),
     "Season 3": createSeason(420, pinkImages3),
